@@ -1,0 +1,28 @@
+.folder-item{
+  border: 1px solid #ddd;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 2px 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.folder-item:hover{
+  border-color: rgb(156, 222, 222);
+}
+.folder-item-img{
+  height: 30px;
+  margin-right: 10px;
+}
+.folder-name{
+  word-wrap: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+[status='expanded']{
+  display: flex;
+}
+[status='collapsed']{
+  display: none;
+}
